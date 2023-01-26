@@ -1,0 +1,76 @@
+﻿@model IEnumerable<AlphaWebApp.Models.Subscription>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1><span class="TitleLine">List Of All Subscriptions</span></h1><br />
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Created)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ExpireAt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User) info
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User) Email
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SubscriptionType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Active)
+            </th>
+            <th></th>
+
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+            <tr>
+                <td>
+                    @item.Created.Date.ToString("dd/MM/yyyy")
+            </td>
+            <td>
+                    @item.ExpireAt.Date.ToString("dd/MM/yyyy")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.FirstName) @Html.DisplayFor(modelItem => item.User.LastName)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.User.Email)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubscriptionType.TypeName)
+            </td>
+            <td>
+                @item.Active
+            </td>
+
+            <td>
+                    <a class="text-dark" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a class="text-dark" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+<h3>
+    <br /><a class="LinkLine" asp-area="" asp-controller="Admin" asp-action="Index">Go back to Admin Page</a>
+</h3>

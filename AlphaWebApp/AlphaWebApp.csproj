@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-AlphaWebApp-3a356a4e-2f85-4813-8c2d-1c03b40eac02</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\NewFolder1\**" />
+    <Compile Remove="Views\Stock\**" />
+    <Content Remove="Models\NewFolder1\**" />
+    <Content Remove="Views\Stock\**" />
+    <EmbeddedResource Remove="Models\NewFolder1\**" />
+    <EmbeddedResource Remove="Views\Stock\**" />
+    <None Remove="Models\NewFolder1\**" />
+    <None Remove="Views\Stock\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="Azure.Data.Tables" Version="12.7.1" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.14.1" />
+    <PackageReference Include="Azure.Storage.Queues" Version="12.12.0" />
+    <PackageReference Include="MailKit" Version="3.4.3" />
+    <PackageReference Include="ChartJS" Version="22.2.3" />
+    <PackageReference Include="MatplotlibCS" Version="1.0.63" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="7.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.11" />
+    <PackageReference Include="NewsAPI" Version="0.6.0" />
+    <PackageReference Include="SendGrid" Version="9.28.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="E:\programering carrer\csharp.net\lexicon\AlphaWebApp\AlphaWebApp\Models\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="E:\programering carrer\csharp.net\lexicon\AlphaWebApp\AlphaWebApp\Models\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+
+    <Folder Include="wwwroot\images\articles\" />
+
+    <Folder Include="wwwroot\WeatherIcons\" />
+  </ItemGroup>
+
+</Project>

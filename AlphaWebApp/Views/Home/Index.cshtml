@@ -1,0 +1,225 @@
+﻿@model IEnumerable<AlphaWebApp.Models.Article>
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Stock manquee  -->
+@*<div class="container">*@
+<div id="Stock-scroll" class="p-4">
+    <span id="StockHeaderText"><b>Stocks</b>   <i class="fa fa-angle-double-down"></i></span>
+    @await Component.InvokeAsync("Stock" , new {region = "uk"})
+</div>
+
+
+<!-------------------------- Alpha News -------------------------->
+<div class="col-md-12">
+    <h3> <b> <i class="fa-solid fa-globe"></i> ALPHA NEWS</b></h3>
+    <hr style="height:5px; color:red; opacity:1">
+    <div id="categories-news" class="owl-carousel owl-theme">
+        @await Component.InvokeAsync("CategoriesNews")
+    </div>
+</div>
+<!-------------------------- Latest News -------------------------->
+<div class="col-md-12">
+    <div id="breaking-news">
+        <span>
+            Latest News  <i class="fa fa-angle-double-right"></i>
+        </span>
+        <div id="latest-news">
+            @await Component.InvokeAsync("LatestArticles")
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <!-------------------------- Local News -------------------------->
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="section-title title">| Local</h1>
+            @*<hr style="width:92%; height:3px; border-width:0; color:white; background-color:#FCD500; opacity:1">*@
+            <div id="local-news" class="owl-carousel owl-theme">
+                @await Component.InvokeAsync("Local")
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-9">
+        <!-------------------------- Sweden News -------------------------->
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="section-title title">| Sweden</h1>
+                <div id="sweden-news" class="owl-carousel owl-theme">
+                    @await Component.InvokeAsync("Sweden")
+                </div>
+            </div>
+        </div>
+
+        <!-------------------------- World News -------------------------->
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="section-title title">| World</h1>
+                <div id="world-news" class="owl-carousel owl-theme">
+                    @await Component.InvokeAsync("World")
+                </div>
+            </div>
+        </div>
+
+        <!-------------------------- Economy News -------------------------->
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="section-title title">| Economy</h1>
+                <div id="economy-news" class="owl-carousel owl-theme">
+                    @await Component.InvokeAsync("Economy")
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------- Editor Choice -------------------------->
+    <div class="col-md-3">
+        <h1 class="section-title title">| Editor's Choice</h1>
+        @await Component.InvokeAsync("EditorsChoice")
+    </div>
+</div>
+
+
+<div class="row">
+    <!-------------------------- Sports -------------------------->
+    <div class="col-md-6">
+        <div class="col-md-12">
+            <h1 class="section-title title">| Sport</h1>
+            <div id="sports" class="owl-carousel owl-theme">
+                @await Component.InvokeAsync("Sport")
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------- Most Popular -------------------------->
+    <div class="col-md-6">
+        <div class="col-md-12">
+
+            <h1 class="section-title title">| Most Popular</h1>
+            @await Component.InvokeAsync("MostPopular")
+        </div>
+        <hr style="height:5px; color:red; opacity:1">
+
+        <!-------------------------- Lexicon -------------------------->
+        <div class="col-sm-12">
+            <hr style="height:5px; color:red; opacity:1">
+            <h4 style="color:black;"><i>"On behalf of Arbetsförmedlingen, Lexicon trains new professionals IT for organizations and companies within the IT industry."</i></h4>
+            <div class="text-center pt-2">
+                <img style="  margin: auto; display: block;" class="img-responsive " src="~/img/lexicon_logo.gif" height="100px;" width="300px;" />
+                <h4 style="color:black;">Expression of interest IT extension</h4>
+                <h4><i>Lexicon-Linköping.se</i></h4>
+                <hr style="height:5px; color:red; opacity:1">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <!-------------------------- Health News -------------------------->
+    <div class="col-md-6">
+        <div class="col-md-12">
+            <h1 class="section-title title">| Health</h1>
+
+            <div id="health-news" class="owl-carousel owl-theme">
+                @await Component.InvokeAsync("Health")
+            </div>
+        </div>
+    </div>
+
+
+    <!-------------------------- Technology News -------------------------->
+    <div class="col-md-6">
+        <div class="col-md-12">
+            <h1 class="section-title title">| Technology</h1>
+            <div id="technology-news" class="owl-carousel owl-theme">
+                @await Component.InvokeAsync("Technology")
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <!-------------------------- bubble-shooter game -------------------------->
+
+    <div class="col-md-6">
+        <h3> <b>| Enjoy with Alpha</b></h3>
+        <hr style="height:5px; color:red; opacity:1">
+        <div>
+            <canvas class="mx-auto" style="margin-left:3%; width:100%; height:auto" id="BubbleShooterviewport" width="628" height="628">Your browser does not support the HTML canvas tag.</canvas>
+        </div>
+    </div>
+
+    <!-------------------------- Weather API -------------------------->
+    <div class="col-md-6">
+
+        <div>
+            <h3> <b>| Currency Convertor</b></h3>
+            <hr style="height:5px; color:red; opacity:1">
+            @await Component.InvokeAsync("CurrencyExchange")
+        </div>
+
+        <div class="pt-4">
+            <h3> <b>| WeatherForecast</b></h3>
+            <hr style="height:5px; color:red; opacity:1">
+
+            @await Component.InvokeAsync("WeatherForeCast" ,
+            new {
+            City = "Linköping",
+            Lang = "en"}
+            )
+        </div>
+    </div>
+</div>
+
+
+<footer id="footer">
+    <div class="footer-top">
+        <div class="container text-center p-2">
+            <img src="~/img/logo_color.png" style="height: 70px;" />
+        </div>
+    </div>
+
+    <div class="bottom-widgets">
+        <div class="container">
+            <div class="col-sm-8">
+                <div class="widget">
+                    <h1 class="section-title title" style="color:#fff">About Us</h1>
+
+                    <p>AlphaNews is a News web site providing the best in local and global news.</p>
+                    <p>It is dedicated to helping people understand the world through on-the-ground, expert and deeply reported independent journalism.</p>
+                    <p>The content’s diversity and the team’s curatorial expertise are another reason to keep you browsing.</p>
+
+                    <address style="color:#fff">
+                        <p>Address : 12345 Linköping, Sweden</p>
+                        <p>Call : +1234-222-3333</p>
+                        <p>Email: info@alphaweb.com</p>
+                    </address>
+
+                    <br />
+                    <h4><u>Follow Us:</u></h4>
+                    <div class="d-inline">
+                        <i class="bi bi-twitter fa-lg"></i>&nbsp;
+                        <i class="bi bi-facebook fa-lg"></i>&nbsp;
+                        <i class="bi bi-rss-fill fa-lg"></i>&nbsp;
+                        <i class="bi bi-telegram fa-lg"></i>&nbsp;
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="widget news-letter">
+                    <h1 class="section-title title" style="color:#fff">Weekly NewsLetter</h1>
+                    <p>However, it still provides enough guidance for browsing the website with regiteration and even three subsriptions types Basic, Standard and Premium.</p>
+                    <button><a asp-area="Identity" asp-page="/Account/Register" style="color:#fff">Register</a></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>

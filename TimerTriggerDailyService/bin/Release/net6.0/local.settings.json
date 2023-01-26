@@ -1,0 +1,9 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=alphagroup16;AccountKey=5rpLCXQeb1TiL4s5dmyu6NoktSOzBpWpukVpu1/hTUI+LhrHj2KmrwFmIKNRXd+B3fD6BOXcmcKc+AStA1w/eQ==;EndpointSuffix=core.windows.net",
+    "AzureQueueName": "newsqueue",
+    "DefaultConnection": "Server=tcp:alphanews.database.windows.net,1433;Initial Catalog=alphanewsdb;Persist Security Info=False;User ID=alphanews;Password=Lexicon2022@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated"
+  }
+}

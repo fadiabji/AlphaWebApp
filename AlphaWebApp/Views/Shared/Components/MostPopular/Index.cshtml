@@ -1,0 +1,25 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using AlphaWebApp.Services
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+@inject ISubscriptionService subscriptionsService
+
+
+@*<----------------------------------------------------- Most Popular ------------------------------------------------------------->*@
+
+
+@model IEnumerable<AlphaWebApp.Models.Article>
+
+@foreach (var item in Model)
+{
+    <span>
+        <a asp-controller="Articles" asp-action="ContinueReading" asp-route-id="@item.Id" style="display:flex; align-items: start; gap: 0.5rem;">
+            <h4 class="pt-md-1">
+                <b style="color:white; background-color:@item.Category.Color">@item.Category.name</b>
+            </h4>
+            <h4 style="color:black;"> @item.HeadLine</h4>
+        </a>
+    </span>
+
+}
+

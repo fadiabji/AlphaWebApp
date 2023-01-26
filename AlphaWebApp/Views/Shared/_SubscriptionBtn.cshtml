@@ -1,0 +1,18 @@
+@using Microsoft.AspNetCore.Identity
+@using AlphaWebApp.Services
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+@inject ISubscriptionService subscriptionsService
+
+
+
+<ul class="justify-content-center">
+    @if (!subscriptionsService.HasSubscription(User))
+    {
+        <li class="my-auto">
+            <button class="subBtn">
+                <a class="nav-link text-white" asp-area="" asp-controller="Subscriptions" asp-action="GetSubscriptionTypsList">Subscribe</a>
+            </button>
+        </li>
+    }
+</ul>

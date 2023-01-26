@@ -1,0 +1,18 @@
+﻿
+
+@{
+    ViewData["Title"] = "My Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h1><span class="TitleLine">Sorry</span></h1><br />
+
+<h2><span class="TitleLine">It seems that you don't have access to this part of our website</span></h2>
+
+<h2><span class="TitleLine">Make sure to have a subscription to access more content</span></h2><br />
+<h3>
+    <br /><a class="LinkLine" asp-area="" asp-controller="Subscriptions" asp-action="GetSubscriptionTypsList">Make a new subscription</a><br />
+
+    <br /><a class="LinkLine" asp-area="" asp-controller="User" asp-action="MyPage">Go back to My Page</a>
+</h3>

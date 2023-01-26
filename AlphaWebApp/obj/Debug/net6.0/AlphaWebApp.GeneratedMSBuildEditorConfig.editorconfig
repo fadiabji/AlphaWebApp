@@ -1,0 +1,397 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AlphaWebApp
+build_property.RootNamespace = AlphaWebApp
+build_property.ProjectDir = C:\Users\fadia\source\repos\AlphaWebApp_V01\AlphaWebApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\fadia\source\repos\AlphaWebApp_V01\AlphaWebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Admin/CreateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Admin/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Admin/CreateSubscriptionType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlU3Vic2NyaXB0aW9uVHlwZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Admin/DeleteCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Admin/DeleteSubscriptionType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlU3Vic2NyaXB0aW9uVHlwZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Admin/DetailsSubscriptionType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGV0YWlsc1N1YnNjcmlwdGlvblR5cGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Admin/EditCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdENhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Admin/EditSubscriptionType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFN1YnNjcmlwdGlvblR5cGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Admin/IndexCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXhDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Admin/IndexSubscriptionType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXhTdWJzY3JpcHRpb25UeXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Admin/ShowStatistics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd1N0YXRpc3RpY3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Articles/ArchiveArticles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcQXJjaGl2ZUFydGljbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Articles/ContinueReading.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcQ29udGludWVSZWFkaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Articles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Articles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Articles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Articles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Articles/EditorPageIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcRWRpdG9yUGFnZUluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Articles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Articles/News.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcTmV3cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Home/AddArticle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRBcnRpY2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Home/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Manager/AddEmailToRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxBZGRFbWFpbFRvUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Manager/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Manager/DeleteRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxEZWxldGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Manager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Manager/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/NewsApi/EnglishNews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c0FwaVxFbmdsaXNoTmV3cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/NewsApi/GetLatestSwedishNewsApi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c0FwaVxHZXRMYXRlc3RTd2VkaXNoTmV3c0FwaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/NewsApi/SwedishNews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c0FwaVxTd2VkaXNoTmV3cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Components/CategoriesNews/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcmllc05ld3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Components/CurrencyExchange/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ3VycmVuY3lFeGNoYW5nZVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Components/Economy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRWNvbm9teVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Components/EditorsChoice/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRWRpdG9yc0Nob2ljZVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Components/Health/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSGVhbHRoXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Components/LatestArticles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGF0ZXN0QXJ0aWNsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Components/Local/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9jYWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Components/MenueCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudWVDYXRlZ29yaWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Components/MostPopular/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTW9zdFBvcHVsYXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Components/NavbarCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Components/Sport/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU3BvcnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Components/SpotPrice/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU3BvdFByaWNlXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Components/Stock/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU3RvY2tcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Components/Sweden/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU3dlZGVuXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Components/Technology/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVGVjaG5vbG9neVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Components/TodayNews/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVG9kYXlOZXdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Components/TodayWorldNews/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVG9kYXlXb3JsZE5ld3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Components/WeatherForeCast/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcV2VhdGhlckZvcmVDYXN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Components/World/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcV29ybGRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/_CookieConsentPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db29raWVDb25zZW50UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/_CookiePolicy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db29raWVQb2xpY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/_HelloMsgLogout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWxsb01zZ0xvZ291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/_Notifications.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/_SubscriptionBtn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdWJzY3JpcHRpb25CdG4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/SpotPrice/GetAreaPrices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvdFByaWNlXEdldEFyZWFQcmljZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Subscriptions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Subscriptions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Subscriptions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Subscriptions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Subscriptions/GetSubscriptionTypsList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uc1xHZXRTdWJzY3JpcHRpb25UeXBzTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Subscriptions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Subscriptions/MakePayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uc1xNYWtlUGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Subscriptions/sendSubscriptionEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uc1xzZW5kU3Vic2NyaXB0aW9uRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/User/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/User/ConfirmNewsletterSubscription.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDb25maXJtTmV3c2xldHRlclN1YnNjcmlwdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/User/ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDb250YWN0VXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/User/ContactUsResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDb250YWN0VXNSZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/User/GetUserCategoriesSelection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxHZXRVc2VyQ2F0ZWdvcmllc1NlbGVjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/User/MyPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNeVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/User/NewsletterUnSubConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxOZXdzbGV0dGVyVW5TdWJDb25maXJtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/User/NoNewsletter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxOb05ld3NsZXR0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/User/NoSubscription.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxOb1N1YnNjcmlwdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/User/SubscriptionHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTdWJzY3JpcHRpb25IaXN0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/WeatherForecast/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlckZvcmVjYXN0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fadia/source/repos/AlphaWebApp_V01/AlphaWebApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-efc5ad6j4g

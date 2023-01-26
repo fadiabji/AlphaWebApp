@@ -1,0 +1,20 @@
+﻿
+
+@{
+    ViewData["Title"] = "My Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1><span class="TitleLine">My Page</span></h1>
+
+
+
+<h3>
+    <br /><a class="LinkLine" asp-area="" asp-controller="User" asp-action="SubscriptionHistory">View your history of subscriptions</a><br />
+
+    <br /><a class="LinkLine" asp-area="" asp-controller="User" asp-action="GetUserCategoriesSelection">Create your own personal newsletter</a><br />
+
+    <br /><a class="LinkLine" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Manage your account</a><br />
+
+    @*<a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="ChangePassword">Change your password!</a>*@
+</h3>

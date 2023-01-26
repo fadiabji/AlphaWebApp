@@ -1,0 +1,18 @@
+﻿
+
+@{
+    ViewData["Title"] = "Admin Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1><span class="TitleLine">Admin page</span></h1>
+
+<h3>
+    <br /><a class="LinkLine" asp-area="" asp-controller="Admin" asp-action="IndexCategory">Category Adminstration</a><br />
+
+    <br /><a class="LinkLine" asp-area="" asp-controller="Admin" asp-action="IndexSubscriptionType">SubscriptionType Adminstration</a><br />
+
+    <br /><a class="LinkLine" asp-area="" asp-controller="Subscriptions" asp-action="Index">Subscriptions Adminstration</a><br />
+
+    <br /><a class="LinkLine" asp-area="" asp-controller="Admin" asp-action="ShowStatistics">Subscriptions Statistics</a><br />
+</h3>

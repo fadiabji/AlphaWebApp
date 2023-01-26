@@ -1,0 +1,20 @@
+﻿
+
+@{
+    ViewData["Title"] = "My Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1><span class="TitleLine">Sorry</span></h1><br />
+
+<h2><span class="TitleLine">It seems you haven't subscribed to our newsletter</span></h2>
+
+<h2><span class="TitleLine">To do so follow the link below or go back to My Page</span></h2><br />
+
+
+
+<h3>
+    <br /><a class="LinkLine" asp-area="" asp-controller="User" asp-action="GetUserCategoriesSelection">Create your own personal newsletter</a><br />
+
+    <br /><a class="LinkLine" asp-area="" asp-controller="User" asp-action="MyPage">Go back to My Page</a>
+</h3>

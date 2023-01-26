@@ -1,0 +1,38 @@
+﻿@model IEnumerable<AlphaWebApp.Models.Subscription>
+
+
+@{
+    ViewData["Title"] = "My Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1><span class="TitleLine">Your Subscriptions</span></h1><br />
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4">
+            <div class="subCard card">
+                <div class="subCardBody card-body">
+                    <h4 class="card-title"><b>@item.SubscriptionType.TypeName</b></h4>
+                    <p class="card-text">Created at: @item.Created.ToString("yyyy/MM/dd")</p>
+                    <p class="card-text">Expires at: @item.ExpireAt.ToString("yyyy/MM/dd")</p>
+                    <p class="card-text">Price: @item.Price kr</p>
+                    @if (item.Active == true)
+                    {
+                        <p class="card-text">Status: <span style="color:#12b800"><b>Active</b></span></p>
+                    }
+                    else
+                    {
+                        <p class="card-text">Status: <span style="color:#ff0000"><b>Expired</b></span></p>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<br />
+<h3>
+    <br /><a class="LinkLine" asp-area="" asp-controller="User" asp-action="MyPage">Go back to My Page</a>
+</h3>

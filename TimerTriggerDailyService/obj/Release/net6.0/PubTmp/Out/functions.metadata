@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Function1",
+    "scriptFile": "TimerNewsApp.dll",
+    "entryPoint": "TimerNewsApp.CheckDbfunction.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "myTimer",
+        "type": "timerTrigger",
+        "direction": "In",
+        "schedule": "0 59 23 * * *"
+      }
+    ]
+  }
+]
